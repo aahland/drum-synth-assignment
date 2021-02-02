@@ -1,0 +1,99 @@
+html {
+    background-image: url("wooden.jpg");
+
+}
+
+
+.buttons  {
+    display: flex;
+    height: 10vh;
+    margin:2vw;
+    justify-content: space-between;
+
+    
+}
+
+.btn {
+    height: 10vh;
+    width: 10vw;
+    background-color: lightblue;
+    border: 3px solid black;
+    border-radius: 10%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+
+.btn:hover {
+    background-color: rgb(34, 202, 231);
+}
+
+#drumPad {
+    position: relative;
+    width: 35vw;
+    height: 50vh;
+    left: 10vw;
+    top: 6vw;
+    border: 5px solid black;
+    padding:1vw;
+    background-color:rgb(56, 55, 55);
+}
+
+#cord2 {
+    position: relative;
+    bottom: 30vh;
+    right:13vw;
+    z-index: -1;
+}
+
+#cord {
+    position: relative;
+    bottom: 25vh;
+    right:14vw;
+    z-index: -1;
+}
+
+#knob {
+    position: relative;
+    bottom: 2vh;
+}
+#knob2 {
+    position: relative;
+    bottom: 2vh;
+    left: 1vw;
+}
+
+#synth {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left:65vw;
+    bottom:41vh;
+    width: 30vw;
+    height: 30vh;
+    background-color: tomato;
+    border: 3px solid black;
+}
+
+.synthbutton {
+    margin:1vw;
+    width: 3vw;
+    height: 20vh;
+    border: 1px solid black;
+    padding:1vw;
+    position: relative;
+    right:16vw;
+    bottom:2vh;
+}
+
+.synthbutton:hover {
+    background-color: gray;
+
+}
+
+
+#cord3 {
+    position: relative;
+    bottom: 70vh;
+    right: 17vw;
+}
