@@ -72,18 +72,18 @@ html {
     width: 30vw;
     height: 30vh;
     background-color: tomato;
-    border: 3px solid black;
+    border: 10px solid black;
 }
 
 .synthbutton {
     margin:1vw;
     width: 3vw;
     height: 20vh;
-    border: 1px solid black;
+    border: 3px solid black;
     padding:1vw;
     position: relative;
-    right:16vw;
-    bottom:2vh;
+    right:27.2vw;
+    bottom:2.3vh;
 }
 
 .synthbutton:hover {
@@ -96,4 +96,18 @@ html {
     position: relative;
     bottom: 70vh;
     right: 17vw;
+}
+
+#cord4 {
+    position: relative;
+    bottom:64vh;
+    z-index: -1;
+}
+
+#knob3 {
+    position: relative;
+    width:5vw;
+    height: 5vh;
+    top:22vh;
+    left:2vw;
 }
